@@ -1,11 +1,13 @@
 class Animal
 
-def makenoise
-  @noise
-end
+# def noise
+#   @noise
+# end
+#
+# def noise=(value)
+#   @noise = value
+# end
 
-def setnoise
-  @noise = 'Testing with classes!!!!!'
-end
+attr_accessor :noise
 
 end
